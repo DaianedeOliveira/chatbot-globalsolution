@@ -81,27 +81,27 @@ chatbot_code = """
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+    body {
+        background-color: transparent !important;
+    }
+
     h1{
-    background: rgb(176,87,141);
-    background: linear-gradient(0deg, rgba(176,87,141,1) 0%, rgba(240,240,240,1) 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: aliceblue;
-
-    font-size: 26px;
-    font-weight: 900;
-    font-size: 40px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 800;
-
+        background: rgb(176,87,141);
+        background: linear-gradient(0deg, rgba(176,87,141,1) 0%, rgba(240,240,240,1) 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: aliceblue;
+        font-size: 40px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 800;
     }
 
     .texto{
-    width: 40%;
-    color: #ffff;
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
+        width: 40%;
+        color: #ffff;
+        font-size: 18px;
+        font-family: 'Poppins', sans-serif;
     }
 </style>
 
@@ -112,7 +112,6 @@ o número máximo de pessoas para que tenham acesso à informação, detecção 
 Esperamos que após a análise e conversa com a FlorenceBot, você saia do site com mais conhecimento sobre a doença e que também 
 consiga disseminar a informação para outras mulheres, juntos podemos ter um mundo mais conscientizado acerca dessa enfermidade. 
 </p>
-
 
 <script type="text/javascript"
     id="botcopy-embedder-d7lcfheammjct"
@@ -172,3 +171,4 @@ fig_line.update_layout(
 #Ajustar posição dos gráficos
 st.plotly_chart(fig_sit, use_container_width=True)
 st.plotly_chart(fig_line, use_container_width=True)
+
