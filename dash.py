@@ -172,4 +172,3 @@ fig_line.update_layout(
 #Ajustar posição dos gráficos
 st.plotly_chart(fig_sit, use_container_width=True)
 st.plotly_chart(fig_line, use_container_width=True)
-
